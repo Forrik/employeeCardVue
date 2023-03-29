@@ -1,6 +1,6 @@
 <template>
   
-
+<div class="container">
      
    <table class="card__table">
       <thead class="card__title">
@@ -38,7 +38,7 @@
       </div>
                
   </table> 
-  
+</div>
 </template>
 
 <script>
@@ -77,9 +77,13 @@ import axios from 'axios'
 
 <style scoped>
 
+.card {
+  margin-left: 50px;
+}
 
 .card__table {
   min-width: 100%;
+  
   
 }
 
@@ -94,7 +98,7 @@ import axios from 'axios'
   display: flex;
   justify-content: space-between;
   background-color: #F5F5F5;
-font-weight: 700;
+  font-weight: 700;
   padding: 15px;
   min-width: 100%;
   position: relative;

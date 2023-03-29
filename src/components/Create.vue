@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
 create new employee
     </div>
 </template>
