@@ -101,10 +101,15 @@ import axios from 'axios'
           const currentEmployee =  this.employees.find((e) => e.id === employeeId);
           currentEmployee.isSelected = !currentEmployee.isSelected;
           console.log(currentEmployee.isSelected)
+      },
+     // write a function to delete selected users
+      removeEmployee() {
+        
       }
       },
-      removeEmployee() {}
+
       
+     
         
     }
 </script>
